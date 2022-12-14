@@ -1,6 +1,6 @@
 <template>
     <section class="productive main-layout full">
-        <section class="">
+        <section class="prod-wrapper">
             <img
                 src="../assets/images/illustration-stay-productive.png"
                 alt=""
