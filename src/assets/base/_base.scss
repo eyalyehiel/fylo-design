@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: $intro;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.main-layout{
+    // max-width: 1440px;
+    // margin-inline: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1440px 1fr;
+
+    > * {
+        grid-column: 2;
+
+        &.full {
+            grid-column: 1 /-1;
+        }
+    }
+}
